@@ -21,6 +21,7 @@ It is built **without any frameworks**, using only core **HTML and CSS**.
 
 Check out the live demo here:  
 
-[My Portfolio](https://ajeetverma.netlify.app/)
+[Live](https://omsaiinternational.netlify.app/)
 
+[My Portfolio](https://ajeetverma.netlify.app/)
 
