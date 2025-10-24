@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>About Us - Om Sai International School</title>
+
+	<!-- Font Awesome CDN -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" />
+
+	<!-- External CSS -->
+	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="about.css">
+
+	<!-- jQuery CDN -->
+	<script src="https://code.jquery.com/jquery-3.6.0.min.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+	<!-- Navigation start -->
+	<nav>
+		<div class="logo-enhancer">
+			<img src="img/logo.jpg" class="a" alt="">
+			Om Sai International School
+		</div>
+
+		<div class="navigation">
+			<ul>
+				<i id="menu-close" class="fas fa-times"></i>
+				<li><a href="index.html">Home</a></li>
+				<li><a href="about.html" class="active">About Us</a></li>
+				<li><a href="blog.html">Blog</a></li>
+				<li><a href="courses.html">Classes</a></li>
+				<li><a href="teachers.html">Teachers</a></li>
+				<li><a href="gallery.html">Gallery</a></li>
+				<li><a href="mandatory-disclosure.html">Mandatory Disclosure</a></li>
+				<li><a href="contact.html">Contact</a></li>
+			</ul>
+			<img src="img/menu.png" id="menu-btn" alt="Menu">
+		</div>
+	</nav>
+	<!-- Navigation ends -->
+
+	<!-- Hero Section -->
+	<section id="about-home">
+		<h2>About Om Sai International School</h2>
+	</section>
+
+	<!-- About Content -->
+	<section id="about-container">
+		<div class="about-img">
+			<img src="img/a.png" alt="School Image">
+		</div>
+		<div class="about-text">
+			<h2>
+				Nurturing Young Minds for a Brighter Future
+			</h2>
+			<p>
+				At Om Sai International School, we are committed to delivering quality education that shapes not just
+				academic excellence, but also character, discipline, and creativity. Our mission is to inspire and
+				empower students to be lifelong learners, responsible citizens, and future leaders.
+			</p>
+
+			<div class="about-fe">
+				<img src="img/fe1.png" alt="">
+				<div class="fe-text">
+					<h5>Well-Structured Curriculum</h5>
+					<p>
+						Our curriculum is designed to blend academic rigor with values-based education, ensuring
+						holistic development.
+					</p>
+				</div>
+			</div>
+			<div class="about-fe">
+				<img src="img/fe2.png" alt="">
+				<div class="fe-text">
+					<h5>Focus on Co-Curricular Activities</h5>
+					<p>
+						We encourage students to explore sports, arts, music, and other activities that foster
+						creativity and teamwork.
+					</p>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- Features -->
+	<section id="features">
+		<h1>Our Key Strengths</h1>
+		<p>Empowering students with knowledge, skills, and values</p>
+
+		<div class="fea-base">
+			<div class="fea-box">
+				<i class="fas fa-chalkboard-teacher"></i>
+				<h3>Experienced Faculty</h3>
+				<p>
+					Qualified educators who guide students with care, dedication, and modern teaching methods.
+				</p>
+			</div>
+
+			<div class="fea-box">
+				<i class="fas fa-laptop-code"></i>
+				<h3>Smart Classrooms</h3>
+				<p>
+					Equipped with digital learning tools to make classroom sessions more engaging and effective.
+				</p>
+			</div>
+
+			<div class="fea-box">
+				<i class="fas fa-users"></i>
+				<h3>Safe & Inclusive Environment</h3>
+				<p>
+					We provide a nurturing environment where every student feels respected, valued, and safe.
+				</p>
+			</div>
+		</div>
+	</section>
+
+	<!-- Trust Section -->
+	<section id="trust">
+		<h1>Trusted By Parents & Students</h1>
+		<p>Building a reputation through consistent quality and care</p>
+		<div class="trust-img">
+			<img src="img/trust (1).png" alt="">
+			<img src="img/trust (2).png" alt="">
+			<img src="img/trust (3).png" alt="">
+			<img src="img/trust (4).png" alt="">
+			<img src="img/trust (5).png" alt="">
+			<img src="img/trust (6).png" alt="">
+		</div>
+	</section>
+
+	<!-- Footer -->
+<footer>
+		<div class="footer-col">
+			<h3>Quick Links</h3>
+			<ul>
+				<li><a href="index.html">Home</a></li>
+				<li><a href="about.html">About Us</a></li>
+				<li><a href="admissions.html">Admissions</a></li>
+				<li><a href="contact.html">Contact</a></li>
+			</ul>
+		</div>
+
+		<div class="footer-col">
+			<h3>Contact Us</h3>
+			<p>Email: saiinternationalschool69@gmail.com<br>admissions@omsaicollege.edu</p>
+			<p>Phone: (+91) 8528001201, 8528001202, 8528001203, 8528001204</p>
+			<p>Address: Ramapur Raghunathpur Tarabganj Gonda 271403</p>
+		</div>
+
+		<div class="copyright">
+			<p>&copy; 2025 Om Sai International School. All rights reserved.</p>
+			<div class="pro-links">
+				<a href="#" aria-label="Facebook"><i class="fab fa-facebook"></i></a>
+				<a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+				<a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+			</div>
+		</div>
+	</footer>
+
+	<!-- Script -->
+	<script>
+		$('#menu-btn').click(function () {
+			$('nav .navigation ul').addClass('active');
+		});
+		$('#menu-close').click(function () {
+			$('nav .navigation ul').removeClass('active');
+		});
+	</script>
+</body>
+
+</html>

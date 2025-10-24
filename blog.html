@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>School Blog</title>
+
+	<!-- font Awesome CDN link -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" />
+
+	<!-- External CSS -->
+	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="about.css">
+	<link rel="stylesheet" href="blog.css">
+
+	<!-- JQuery CDN link -->
+	<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+
+<body>
+	<!-- Navigation start -->
+	<nav>
+		<div class="logo-enhancer">
+			<img src="img/logo.jpg" class="a" alt="">
+			Om Sai International School
+		</div>
+
+		<div class="navigation">
+			<ul>
+				<i id="menu-close" class="fas fa-times"></i>
+				<li><a href="index.html">Home</a></li>
+				<li><a href="about.html">About Us</a></li>
+				<li><a href="blog.html" class="active">Blog</a></li>
+				<li><a href="courses.html">Classes</a></li>
+				<li><a href="teachers.html">Teachers</a></li>
+				<li><a href="gallery.html">Gallery</a></li>
+				<li><a href="mandatory-disclosure.html">Mandatory Disclosure</a></li>
+				<li><a href="contact.html">Contact</a></li>
+			</ul>
+			<img src="img/menu.png" id="menu-btn" alt="">
+		</div>
+	</nav>
+	<!-- Navigation ends -->
+
+	<!-- Hero section -->
+	<section id="about-home">
+		<h2>School Blog</h2>
+	</section>
+
+	<!-- Blog container -->
+	<section id="blog-container">
+		<div class="blogs">
+
+			<div class="post">
+				<img src="img/b1.jpg" alt="">
+				<h3>Annual Sports Day: A Celebration of Talent and Team Spirit</h3>
+				<p>Om Sai International School hosted its Annual Sports Day with enthusiasm and great energy. Students
+					showcased their athletic abilities while learning the value of discipline and teamwork.</p>
+				<a href="post.html">Read More</a>
+			</div>
+
+			<div class="post">
+				<img src="img/b2.jpg" alt="">
+				<h3>Science Exhibition 2025: Innovation at Its Best</h3>
+				<p>Our students amazed everyone with their creative science models and ideas at this year’s exhibition.
+					From renewable energy to smart farming, young minds shone bright with future-ready innovations.</p>
+				<a href="post.html">Read More</a>
+			</div>
+
+			<div class="post">
+				<img src="img/b3.jpg" alt="">
+				<h3>Importance of Reading Habits Among Children</h3>
+				<p>Developing a reading habit from a young age helps improve vocabulary, creativity, and academic
+					performance. Here’s how we promote a reading culture in our school environment.</p>
+				<a href="post.html">Read More</a>
+			</div>
+
+			<div class="post">
+				<img src="img/b1.jpg" alt="">
+				<h3>Our Students Shine in Board Exams 2025</h3>
+				<p>With dedicated efforts from both students and teachers, Om Sai International School achieved a 98%
+					overall result in the board exams this year. Congratulations to all achievers!</p>
+				<a href="post.html">Read More</a>
+			</div>
+
+			<div class="post">
+				<img src="img/b2.jpg" alt="">
+				<h3>How We Foster a Culture of Discipline and Values</h3>
+				<p>Our school not only imparts academic knowledge but also nurtures discipline, respect, and moral
+					values among students through regular assemblies and workshops.</p>
+				<a href="post.html">Read More</a>
+			</div>
+		</div>
+
+		<div class="cate">
+			<h2>Categories</h2>
+			<hr>
+			<a href="#">Student Life</a>
+			<hr>
+			<a href="#">Events & Celebrations</a>
+			<hr>
+			<a href="#">Academic Excellence</a>
+			<hr>
+			<a href="#">Innovation & Science</a>
+			<hr>
+			<a href="#">Values & Ethics</a>
+			<hr>
+			<a href="#">Sports & Fitness</a>
+		</div>
+	</section>
+
+	<!-- Footer -->
+	<footer>
+		<div class="footer-col">
+			<h3>Quick Links</h3>
+			<ul>
+				<li><a href="index.html">Home</a></li>
+				<li><a href="about.html">About Us</a></li>
+				<li><a href="admissions.html">Admissions</a></li>
+				<li><a href="contact.html">Contact</a></li>
+			</ul>
+		</div>
+
+		<div class="footer-col">
+			<h3>Contact Us</h3>
+			<p>Email: saiinternationalschool69@gmail.com<br>admissions@omsaicollege.edu</p>
+			<p>Phone: (+91) 8528001201, 8528001202, 8528001203, 8528001204</p>
+			<p>Address: Ramapur Raghunathpur Tarabganj Gonda 271403</p>
+		</div>
+
+		<div class="copyright">
+			<p>&copy; 2025 Om Sai International School. All rights reserved.</p>
+			<div class="pro-links">
+				<a href="#" aria-label="Facebook"><i class="fab fa-facebook"></i></a>
+				<a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+				<a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+			</div>
+		</div>
+	</footer>
+
+	<script>
+		// Show menu on click
+		$('#menu-btn').click(function () {
+			$('nav .navigation ul').addClass('active');
+		});
+
+		// Hide menu on close click
+		$('#menu-close').click(function () {
+			$('nav .navigation ul').removeClass('active');
+		});
+	</script>
+</body>
+
+</html>

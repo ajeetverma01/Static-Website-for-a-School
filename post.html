@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Blog Post | Om Sai International School</title>
+
+	<!-- Font Awesome -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" />
+
+	<!-- External CSS -->
+	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="blog.css">
+
+	<!-- jQuery -->
+	<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+
+<body>
+
+	<!-- Navigation -->
+	<nav>
+		<div class="logo-enhancer">
+			<img src="img/logo.jpg" class="a" alt="">
+			Om Sai International School
+		</div>
+
+		<div class="navigation">
+			<ul>
+				<i id="menu-close" class="fas fa-times"></i>
+				<li><a href="index.html">Home</a></li>
+				<li><a href="about.html">About Us</a></li>
+				<li><a href="blog.html" class="active">Blog</a></li>
+				<li><a href="courses.html">Classes</a></li>
+				<li><a href="teachers.html">Teachers</a></li>
+				<li><a href="gallery.html">Gallery</a></li>
+				<li><a href="mandatory-disclosure.html">Mandatory Disclosure</a></li>
+				<li><a href="contact.html">Contact</a></li>
+			</ul>
+			<img src="img/menu.png" id="menu-btn" alt="">
+		</div>
+	</nav>
+
+	<!-- Blog Hero Section -->
+	<section id="about-home">
+		<h2>Blog Details</h2>
+	</section>
+
+	<!-- Blog Post Content -->
+	<section id="blog-container">
+		<div class="blogs">
+
+			<div class="post">
+				<img src="img/b1.jpg" alt="Annual Sports Day">
+				<h3>Annual Sports Day: A Celebration of Talent and Team Spirit</h3>
+				<p>
+					The Annual Sports Day at Om Sai International School was a grand success. Held on 10th January 2025,
+					the event brought together students, teachers, and parents to celebrate physical fitness and healthy
+					competition.
+				</p>
+				<p>
+					The day started with a vibrant march-past and oath-taking ceremony. Students participated in various
+					events including races, relays, long jump, and tug-of-war. The event fostered teamwork, discipline,
+					and sportsmanship.
+				</p>
+				<p>
+					Chief Guest Mr. Arvind Mishra encouraged students to actively participate in sports alongside
+					academics. He emphasized the importance of a balanced lifestyle. Medals and certificates were
+					awarded to winners across different categories.
+				</p>
+				<p>
+					Overall, it was a memorable day filled with cheers, enthusiasm, and proud moments. Om Sai
+					International School continues to encourage holistic development through such engaging activities.
+				</p>
+			</div>
+		</div>
+
+		<!-- Sidebar Categories -->
+		<div class="cate">
+			<h2>Categories</h2>
+			<hr>
+			<a href="#">Student Life</a>
+			<hr>
+			<a href="#">Events & Celebrations</a>
+			<hr>
+			<a href="#">Academic Excellence</a>
+			<hr>
+			<a href="#">Innovation & Science</a>
+			<hr>
+			<a href="#">Values & Ethics</a>
+			<hr>
+			<a href="#">Sports & Fitness</a>
+		</div>
+	</section>
+
+	<!-- Footer -->
+	<footer>
+		<div class="footer-col">
+			<h3>Quick Links</h3>
+			<ul>
+				<li><a href="index.html">Home</a></li>
+				<li><a href="about.html">About Us</a></li>
+				<li><a href="admissions.html">Admissions</a></li>
+				<li><a href="contact.html">Contact</a></li>
+			</ul>
+		</div>
+
+		<div class="footer-col">
+			<h3>Contact Us</h3>
+			<p>Email: saiinternationalschool69@gmail.com<br>admissions@omsaicollege.edu</p>
+			<p>Phone: (+91) 8528001201, 8528001202, 8528001203, 8528001204</p>
+			<p>Address: Ramapur Raghunathpur Tarabganj Gonda 271403</p>
+		</div>
+
+		<div class="copyright">
+			<p>&copy; 2025 Om Sai International School. All rights reserved.</p>
+			<div class="pro-links">
+				<a href="#" aria-label="Facebook"><i class="fab fa-facebook"></i></a>
+				<a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+				<a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+			</div>
+		</div>
+	</footer>
+
+	<!-- Script -->
+	<script>
+		$('#menu-btn').click(function () {
+			$('nav .navigation ul').addClass('active');
+		});
+		$('#menu-close').click(function () {
+			$('nav .navigation ul').removeClass('active');
+		});
+	</script>
+
+</body>
+
+</html>
