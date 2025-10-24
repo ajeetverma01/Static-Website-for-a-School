@@ -1,32 +1,26 @@
-### Education website for College & University
-.
-![Education website template](https://i.ibb.co/0Yr6dLg/education.png)
-.
-.
-This is a HTML5 Responsive site template suitable for Courses, colleges, Workshop, Lessons and university sites. In this educational website we have't used any framework, totally based on core languages like HTML & CSS.
-.
-.
-.
-.
-### features
-- Valid and clean HTML5/CSS3 code
-- 5 different pages
-- Google Map
-- Free Fonts from Google Fonts
-- Free Icons from Font Awesome
-- Crossover Browsers Compatibility
-- Free Future Updates
-- etc
-.
-.
-.
-.
-.
+# Static website for a school
 
-[![Nihory - Portfolio site template live demo](https://i.ibb.co/vwN8cgW/live-demo.png)](https://education-atulcodex.netlify.app/)
-.
-.
-.
-.
-.
-[![Atul - Buy Me A Coffee](https://i.ibb.co/7rR9S4L/buy-me-a-coffee.png)](https://www.buymeacoffee.com/atulcodex)
+This is a **HTML5 responsive static website** designed for schools.  
+It is built **without any frameworks**, using only core **HTML and CSS**.  
+
+---
+
+## Features
+
+- Valid and clean **HTML5/CSS3** code  
+- **10 different pages**  
+- **Free fonts** from [Google Fonts](https://fonts.google.com/)  
+- **Free icons** from [Font Awesome](https://fontawesome.com/)  
+- Cross-browser compatibility  
+- **Free future updates**  
+- And more  
+
+---
+
+## Live Demo
+
+Check out the live demo here:  
+
+[My Portfolio](https://ajeetverma.netlify.app/)
+
+
