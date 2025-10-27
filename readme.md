@@ -1,6 +1,6 @@
 # Static website for a school
 
-This is a **HTML5 responsive static website** designed for schools.  
+This is a **HTML5 responsive static website** designed for school.  
 It is built **without any frameworks**, using only core **HTML and CSS**.  
 
 ---
